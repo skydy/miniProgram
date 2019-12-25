@@ -1,5 +1,4 @@
 <!--index.wxml-->
 <view class="container">
-  <text class="txt">你好世界</text>
   <view class="views"></view>
 </view>
