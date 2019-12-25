@@ -1,0 +1,2 @@
+.txt{color: blueviolet;font-size: 30rpx}
+.views{background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577267528529&di=33217a262e77b6c3815c17d7fdc1bf68&imgtype=0&src=http%3A%2F%2Fpic4.zhimg.com%2F50%2Fv2-5adf47fbc7aea450779a2c129f6c6532_hd.jpg);width: 200px;height: 200px;background-size: cover;background-position: center}
