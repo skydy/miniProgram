@@ -1,5 +1,11 @@
 <!--index.wxml-->
-<view class="container">
-  <text class="txt">你好世界</text>
-  <view class="views"></view>
+<view class="container txt">
+    <!-- 数据绑定 -->
+    <text class="txt">{{msg}}</text>
+    <!-- 循环 -->
+    <view wx:for="{{arr}}" wx:key="index">
+        {{item.id}}---{{item.name}}
+    </view>
+    <!-- 事件监听 -->
+    <button size="mini" bindtap="btns">点击</button>
 </view>

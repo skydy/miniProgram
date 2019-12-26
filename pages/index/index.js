@@ -3,19 +3,21 @@
 const app = getApp()
 
 Page({
-  data: {
-    
-  },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
-  onLoad: function () {
-    
-  },
-  getUserInfo: function() {
-    
-  }
+    data: {
+        msg: "你好世界",
+        arr:[
+            {
+                id:1,
+                name:"one"
+            },
+            {
+                id:2,
+                name:"two"
+            }
+        ]
+    },
+    btns(){
+        const msg = this.data.msg.split("").reverse().join("")
+        this.setData({msg})
+    }
 })
