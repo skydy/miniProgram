@@ -3,7 +3,8 @@
 const app = getApp()
 Page({
     data: {
-        msg: "你好世界",
+        msg: "你好世界",                       
+        imgSrc:"/assets/img/201912270856.jpg",
         arr:[
             {
                 id:1,
@@ -25,5 +26,4 @@ Page({
     users(event){
         console.log(event)
     }
-    
 })
