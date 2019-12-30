@@ -8,4 +8,9 @@
     </view>
     <!-- 事件监听 -->
     <button size="mini" bindtap="btns">点击</button>
+    <!-- 获取用户信息 -->
+    <button size="mini" open-type="getUserInfo" bindgetuserinfo="users">获取</button>
+    <!-- 展示用户信息 -->
+    <open-data type="userNickName"></open-data>
+    <open-data type="userAvatarUrl"></open-data>
 </view>

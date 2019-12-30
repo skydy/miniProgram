@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+    "usingComponents": {},
+    "navigationBarTitleText": "光谷",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#fef"
 }

@@ -1,14 +1,35 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/home/home"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/index/index",
+        "pages/home/home",
+        "pages/about/about"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "sky",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "selectedColor": "#ff5777",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页"
+                
+            },
+            {
+                "pagePath":"pages/home/home",
+                "text": "光谷"
+                
+            },
+            {
+                "pagePath": "pages/about/about",
+                "text": "武汉"
+                
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }
